@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+}
+:root {
+  --primary-color: deeppink;
+  --second-color: #6bd9e7;
+  --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+.about {
+  display: flax;
+  text-align: center;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--second-color);
+}
+
+h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid var(--primary-color);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+a:visited {
+  color: rgb(25, 88, 88);
+}
+
+a:hover {
+  background-color: var(--second-color);
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#contactme {
+  box-shadow: var(--box-shadow);
+  background-color: deeppink;
+  color: white;
+}
+
+.textcols {
+  white-space: nowrap;
+}
+.textcols-item {
+  white-space: normal;
+  text-align: left;
+  font-size: 18px;
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  background: #fff2e1;
+  margin: 10px 10px;
+  box-shadow: var(--box-shadow);
+}
+
+#contacts {
+  justify-content: center;
+}
+
+#emailhart {
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
